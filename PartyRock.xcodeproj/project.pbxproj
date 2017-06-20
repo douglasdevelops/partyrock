@@ -8,20 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		22D3433D1DB9078A00191398 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D3433C1DB9078A00191398 /* AppDelegate.swift */; };
-		22D3433F1DB9078A00191398 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D3433E1DB9078A00191398 /* ViewController.swift */; };
+		22D3433F1DB9078A00191398 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D3433E1DB9078A00191398 /* MainVC.swift */; };
 		22D343421DB9078A00191398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D343401DB9078A00191398 /* Main.storyboard */; };
 		22D343441DB9078A00191398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D343431DB9078A00191398 /* Assets.xcassets */; };
 		22D343471DB9078A00191398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D343451DB9078A00191398 /* LaunchScreen.storyboard */; };
+		22D343521DB90B6200191398 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D343511DB90B6200191398 /* VideoVC.swift */; };
+		22D343541DB90C9400191398 /* PartyCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D343531DB90C9400191398 /* PartyCellTableViewCell.swift */; };
+		22D343591DB90DCD00191398 /* PartyRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D343581DB90DCD00191398 /* PartyRock.swift */; };
+		22D3435C1DB9151F00191398 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D3435B1DB9151F00191398 /* Constants.swift */; };
+		22D3435E1DB948C900191398 /* load.gif in Resources */ = {isa = PBXBuildFile; fileRef = 22D3435D1DB948C900191398 /* load.gif */; };
+		AC743F216DD2E9D097A2FBE6 /* Pods_PartyRock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D0B7D5E407D7F1D110EC29 /* Pods_PartyRock.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		22D343391DB9078900191398 /* PartyRock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartyRock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D3433C1DB9078A00191398 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		22D3433E1DB9078A00191398 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22D3433E1DB9078A00191398 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		22D343411DB9078A00191398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22D343431DB9078A00191398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22D343461DB9078A00191398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22D343481DB9078A00191398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22D343501DB90A9700191398 /* still time.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "still time.ttf"; sourceTree = "<group>"; };
+		22D343511DB90B6200191398 /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		22D343531DB90C9400191398 /* PartyCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyCellTableViewCell.swift; sourceTree = "<group>"; };
+		22D343581DB90DCD00191398 /* PartyRock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyRock.swift; sourceTree = "<group>"; };
+		22D3435B1DB9151F00191398 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		22D3435D1DB948C900191398 /* load.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = load.gif; sourceTree = "<group>"; };
+		38D0B7D5E407D7F1D110EC29 /* Pods_PartyRock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PartyRock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15BFA1584EAFEC009D86844 /* Pods-PartyRock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PartyRock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PartyRock/Pods-PartyRock.debug.xcconfig"; sourceTree = "<group>"; };
+		F94BB0C7F619C44DE00E3A68 /* Pods-PartyRock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PartyRock.release.xcconfig"; path = "Pods/Target Support Files/Pods-PartyRock/Pods-PartyRock.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC743F216DD2E9D097A2FBE6 /* Pods_PartyRock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +56,8 @@
 			children = (
 				22D3433B1DB9078900191398 /* PartyRock */,
 				22D3433A1DB9078900191398 /* Products */,
+				49750591D2934E98EF5E81ED /* Pods */,
+				84B1FC91F9426DBBAB21875C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +72,69 @@
 		22D3433B1DB9078900191398 /* PartyRock */ = {
 			isa = PBXGroup;
 			children = (
+				22D3435A1DB9151100191398 /* Util */,
+				22D343571DB90D9400191398 /* controller */,
+				22D343561DB90D9000191398 /* view */,
+				22D343551DB90D8900191398 /* model */,
 				22D3433C1DB9078A00191398 /* AppDelegate.swift */,
-				22D3433E1DB9078A00191398 /* ViewController.swift */,
 				22D343401DB9078A00191398 /* Main.storyboard */,
+				22D343501DB90A9700191398 /* still time.ttf */,
 				22D343431DB9078A00191398 /* Assets.xcassets */,
+				22D3435D1DB948C900191398 /* load.gif */,
 				22D343451DB9078A00191398 /* LaunchScreen.storyboard */,
 				22D343481DB9078A00191398 /* Info.plist */,
 			);
 			path = PartyRock;
+			sourceTree = "<group>";
+		};
+		22D343551DB90D8900191398 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				22D343581DB90DCD00191398 /* PartyRock.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		22D343561DB90D9000191398 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				22D343531DB90C9400191398 /* PartyCellTableViewCell.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		22D343571DB90D9400191398 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				22D3433E1DB9078A00191398 /* MainVC.swift */,
+				22D343511DB90B6200191398 /* VideoVC.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		22D3435A1DB9151100191398 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				22D3435B1DB9151F00191398 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		49750591D2934E98EF5E81ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F15BFA1584EAFEC009D86844 /* Pods-PartyRock.debug.xcconfig */,
+				F94BB0C7F619C44DE00E3A68 /* Pods-PartyRock.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84B1FC91F9426DBBAB21875C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38D0B7D5E407D7F1D110EC29 /* Pods_PartyRock.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +144,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22D3434B1DB9078A00191398 /* Build configuration list for PBXNativeTarget "PartyRock" */;
 			buildPhases = (
+				356867DB0FD1185321193BC5 /* [CP] Check Pods Manifest.lock */,
 				22D343351DB9078900191398 /* Sources */,
 				22D343361DB9078900191398 /* Frameworks */,
 				22D343371DB9078900191398 /* Resources */,
+				65FC7E4A98049578F70F3AE2 /* [CP] Embed Pods Frameworks */,
+				20451F9F1F3D16E58920E949 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +172,7 @@
 				TargetAttributes = {
 					22D343381DB9078900191398 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = TZW738EFLX;
+						DevelopmentTeam = Z6KXG7589J;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22D3435E1DB948C900191398 /* load.gif in Resources */,
 				22D343471DB9078A00191398 /* LaunchScreen.storyboard in Resources */,
 				22D343441DB9078A00191398 /* Assets.xcassets in Resources */,
 				22D343421DB9078A00191398 /* Main.storyboard in Resources */,
@@ -132,13 +209,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		20451F9F1F3D16E58920E949 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PartyRock/Pods-PartyRock-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		356867DB0FD1185321193BC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		65FC7E4A98049578F70F3AE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PartyRock/Pods-PartyRock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		22D343351DB9078900191398 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22D3433F1DB9078A00191398 /* ViewController.swift in Sources */,
+				22D343521DB90B6200191398 /* VideoVC.swift in Sources */,
+				22D3433F1DB9078A00191398 /* MainVC.swift in Sources */,
+				22D343591DB90DCD00191398 /* PartyRock.swift in Sources */,
+				22D343541DB90C9400191398 /* PartyCellTableViewCell.swift in Sources */,
 				22D3433D1DB9078A00191398 /* AppDelegate.swift in Sources */,
+				22D3435C1DB9151F00191398 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,9 +386,10 @@
 		};
 		22D3434C1DB9078A00191398 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F15BFA1584EAFEC009D86844 /* Pods-PartyRock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TZW738EFLX;
+				DEVELOPMENT_TEAM = Z6KXG7589J;
 				INFOPLIST_FILE = PartyRock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.idlestack.PartyRock;
@@ -270,9 +400,10 @@
 		};
 		22D3434D1DB9078A00191398 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F94BB0C7F619C44DE00E3A68 /* Pods-PartyRock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TZW738EFLX;
+				DEVELOPMENT_TEAM = Z6KXG7589J;
 				INFOPLIST_FILE = PartyRock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.idlestack.PartyRock;
@@ -300,6 +431,7 @@
 				22D3434D1DB9078A00191398 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
