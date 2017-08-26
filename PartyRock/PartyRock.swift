@@ -14,7 +14,6 @@ class PartyRock {
     private var _VideoURL: String!
     private var _VideoTitle: String!
     
-    
     var ImgURL : String {
         return _ImageURL
     }
@@ -32,8 +31,4 @@ class PartyRock {
         _VideoURL = videoURL
         _VideoTitle = videoTitle
     }
-    
-    
-    
-    
 }

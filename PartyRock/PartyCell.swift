@@ -8,12 +8,13 @@
 
 import UIKit
 
-class PartyCellTableViewCell: UITableViewCell {
-
+class PartyCell: UITableViewCell {
     
-   @IBOutlet weak var PartyLabel: UILabel!
-   @IBOutlet weak var PartyImage: UIImageView!
+    //MARK: IBOutlets
+    @IBOutlet weak var PartyLabel: UILabel!
+    @IBOutlet weak var PartyImage: UIImageView!
     
+    //MARK: View Life Cycle
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -38,9 +39,10 @@ class PartyCellTableViewCell: UITableViewCell {
         PartyImage.startAnimating()
         
     }
-
+    
+    //MARK: User Functions
     func UpdateUI(prock: PartyRock) {
-     PartyLabel.text = prock.VideoTitle
+        PartyLabel.text = prock.VideoTitle
         
         let url = URL(string: prock.ImgURL)
         
